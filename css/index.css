@@ -1,0 +1,85 @@
+body {
+
+ background-color:#ffe7c7 !important;
+ 
+
+}
+	
+.header{
+	font-family: monospace;
+	font-size: 15px;
+	text-align: center;
+}
+.navbar{
+	background-image: url(../img/abstract1.jpg);
+	background-color :rgba(255,151,144,1);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+
+}
+
+
+.navigation-box {
+    top: .4rem;
+    right: .8rem;
+    width: 2rem;
+    position: absolute;
+    transform: translate(-60px ,0px);
+
+}
+
+
+@media (min-width: 768px){
+	
+    .breaking-caret:after {
+        content: "";
+   		width: 0;
+  		height: 0;
+ 		border-top: 21px solid transparent;
+ 		border-left: 27px solid #28a745;
+  		border-bottom: 24px solid transparent;
+  		position: absolute;
+    	right: -27px;
+    	top: 0px;
+    }
+
+}
+
+.title{
+	padding-top: 50px;
+	font-weight: bolder;
+	 color: transparent;	
+	 text-align: center;
+	 background: url("../img/title1.jpg") repeat;
+	 background-position: 40% 50%;
+	 -webkit-background-clip: text;
+	 position: relative;
+/*	 line-height:150px;
+	 letter-spacing: -8px;*/
+	 text-shadow: 2px 2px 3px
+	rgba(255,255,255,0.2);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+.topic{
+	padding-top: 50px;
+	font-size: 55px;
+	color: transparent;
+	background: url("../img/title.jpg");
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-attachment: fixed ;
+	text-align: center;
+
+}
+
+.content{
+	padding: 5px ;
+	padding-top: 10px;
+		
+}
+
